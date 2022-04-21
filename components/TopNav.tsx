@@ -1,12 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
+import styles from './TopNav.module.css';
 
 const TopNav = () => {
-  return (
-    <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
-      HAVBAR
-    </nav>
-  );
+  return <nav className={styles.container}>HAVBAR</nav>;
 };
 
 export default TopNav;
